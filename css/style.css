@@ -66,6 +66,7 @@ a{
     text-transform: uppercase;
     padding: 14px 54px 15px;
     transition: all .5s;
+    color: #fff;
 }
 .button:hover{
     color: #5A0D67;
