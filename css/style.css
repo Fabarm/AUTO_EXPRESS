@@ -80,6 +80,10 @@ a{
 .header__social-link{
     margin-right: 10px;
 }
+.header__social-link:hover{
+    background-color: #0d95e8;
+    transition: all .5s;
+}
 .header__images{
     position: absolute;
     right: 0;
