@@ -67,6 +67,7 @@ a{
     padding: 14px 54px 15px;
     transition: all .5s;
     color: #fff;
+    border: 1px solid #5A0D67;
 }
 .button:hover{
     color: #5A0D67;
@@ -80,12 +81,73 @@ a{
 .header__social-link{
     margin-right: 10px;
 }
-.header__social-link:hover{
-    background-color: #0d95e8;
-    transition: all .5s;
-}
 .header__images{
     position: absolute;
     right: 0;
     bottom: -305px;
+}
+.services{
+    margin-top: 350px;
+}
+.title{
+    color: #21062a;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
+}
+.title::after{
+    content: '';
+    width: 80px;
+    height: 3px;
+    background-color: #5A0D67;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+}
+.services__inner{
+    display: flex;
+    margin-bottom: 100px;
+}
+.services__content{
+    width: 505px;
+    margin-right: 96px;
+}
+.services__content-box{
+
+}
+.services__content-title{
+    color: #5A0D67;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+.services__content-textbox{
+    margin-bottom: 57px;
+}
+.services__content-text{
+    margin-bottom: 12px;
+}
+.button--decor{
+    margin-top: -7px;
+    color: #fff;
+    position: relative;
+}
+.button--decor::after{
+    content: 'ЖМИ';
+    color: #c4c4c4;
+    position: absolute;
+    margin-left: 130px;
+}
+.button--decor::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #c4c4c4;
+    right: -65px;
+    top: 24px;
 }
