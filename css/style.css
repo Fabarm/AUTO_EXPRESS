@@ -74,12 +74,14 @@ a{
     background-color: #fff;
 }
 .header__social{
-    padding: 70px 0 20px 65px;
+    padding: 70px 0 20px 70px;    
+}
+.social{
     display: flex;
     align-items: center;
 }
-.header__social-link{
-    margin-right: 10px;
+.social-link{
+    margin: 0 5px;
 }
 .header__images{
     position: absolute;
@@ -296,6 +298,7 @@ a{
     color: #fff;
     margin-bottom: 16px;
     margin-left: 53px;
+    text-align: left;
 }
 .contacts__title::after{
     background-color: #fff;
@@ -325,4 +328,14 @@ a{
     color: #fff;
     margin-top: 78px;
     cursor: pointer;
+}
+.footer{    
+    background-color: #21062A;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100px;
 }
