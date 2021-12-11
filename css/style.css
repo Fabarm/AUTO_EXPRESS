@@ -89,7 +89,7 @@ a{
     bottom: -305px;
 }
 .services{
-    margin-top: 350px;
+    padding-top: 350px;
 }
 .title{
     color: #21062a;
@@ -338,4 +338,131 @@ a{
     align-items: center;
     color: #fff;
     height: 100px;
+}
+/* Адаптив */
+
+@media (max-width: 1140px){
+    .services__item:hover{
+        width: 450px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__images{
+        width: 80%;
+    }
+    .services{
+        padding-top: 250px;
+    }
+    .services__inner{
+        flex-wrap: wrap;
+    }
+    .services__list{
+        order: -1;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .services__item{
+        width: 100%;
+    }
+    .services__item:hover{
+        width: 100%;
+    }
+    .services__content{
+        margin-right: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 900px){
+    .header__images{
+        width: 80%;
+    }
+    .phone{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .header__title{
+        font-size: 54px;
+        line-height: 74px;
+    }
+    .header__subtitle{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .header__social{
+        padding: 30px 0 20px 53px;
+    }
+}
+@media (max-width: 600px){
+    .header__content{
+        padding-top: 0;
+        text-align: center;
+    }
+    .header__social{
+        padding: 30px 0 20px 0px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .services{
+        padding-top: 150px;
+    }
+    .title{
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    body{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .services__item::before{
+        top: 5px;
+    }
+}
+@media (max-width: 520px){
+    .header__top{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .logo{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .header__title{
+        margin-bottom: 20px;
+    }
+    .header__images{
+        position: static;
+        width: 100%;
+    }
+    .services{
+        padding-top: 50px;
+    }
+    .services__item{
+        padding: 10px 15px 10px 60px;
+    }
+    .services__item::before{
+        left: 11px;
+    }
+    .button--decor::before{
+        right: -50px;
+    }
+    .button--decor::after{
+        margin-left: 110px;
+    }
+}
+@media (max-width: 370px){
+    .button--decor::before,
+    .button--decor::after{
+        display: none;
+    }
+}
+@media (max-width: 340px){
+    .header__title{
+        font-size: 44px;
+        line-height: 50px;
+    }
 }
